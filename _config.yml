@@ -1,3 +1,20 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Your Name
+description: Researcher in [Your Field]
+
+author:
+  name:  Your Name
+  email: your@email.com
+
+# GitHub Pages settings
+url:        "https://yourusername.github.io"
+baseurl:    ""   # leave empty if site lives at root; use "/repo-name" if not
+
+# Build settings
+markdown:    kramdown
+theme:       ~          # no remote theme — we use our own _layouts
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
